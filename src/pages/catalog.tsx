@@ -14,6 +14,7 @@ export const Catalog = () => {
   return (
     <>
       <div style={allground}>
+        <div>カタログ</div>
         <CatalogBox componentNo="1" componentName="Button">
           {<Button text="test" />}
         </CatalogBox>
